@@ -1,9 +1,6 @@
-import Link from 'next/link';
-import prisma from './lib/prisma'
-import AddComponent from '@/components/AddComponent' 
-import ButtonsComponent from '@/components/Buttons' 
-import { revalidatePath } from 'next/cache';
-// import { deleteRow } from '../../functions/functions'
+import prisma from '.././db/prisma'
+import AddComponent from './dashboard/AddComponent' 
+import ButtonsComponent from './dashboard/Buttons' 
 
 
 export default async function List() {
