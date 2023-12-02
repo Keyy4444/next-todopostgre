@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import { addTodo } from '../functions/functions'
+import { addTodo } from './actions/AddTodo'
 
 export default function AddComponent() {
     return (

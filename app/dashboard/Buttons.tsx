@@ -1,10 +1,12 @@
 "use client"
 
 import React from 'react'
-import { deleteRow, updateRow, updateToggle } from '../functions/functions'
+import { deleteRow } from './actions/DeleteRow'
+import { updateRow } from './actions/UpdateRow'
+import { updateToggle } from './actions/UpdateToggle'
 import { useState, useEffect } from 'react';
 
-interface Task {
+interface Task {    
     id: number;
     content: string;
     isEdit: boolean;
